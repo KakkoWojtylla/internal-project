@@ -1,0 +1,23 @@
+; Engine configuration file.
+; Manual scaffold for Godot 4.5 project.
+config_version=5
+
+[application]
+config/name="Q3ArenaGodot"
+run/main_scene="res://scenes/main.tscn"
+config/features=PackedStringArray("4.5")
+boot_splash/show_image=false
+
+[rendering]
+renderer/rendering_method="forward_plus"
+renderer/threads/thread_model=2
+environment/default_environment="res://default_env.tres"
+
+[input]
+move_forward={"deadzone":0.5,"events":[{"type":"InputEventKey","unicode":0,"keycode":0,"physical_keycode":87,"key_label":0,"echo":false,"pressed":false}]}
+move_backward={"deadzone":0.5,"events":[{"type":"InputEventKey","unicode":0,"keycode":0,"physical_keycode":83,"key_label":0,"echo":false,"pressed":false}]}
+move_left={"deadzone":0.5,"events":[{"type":"InputEventKey","unicode":0,"keycode":0,"physical_keycode":65,"key_label":0,"echo":false,"pressed":false}]}
+move_right={"deadzone":0.5,"events":[{"type":"InputEventKey","unicode":0,"keycode":0,"physical_keycode":68,"key_label":0,"echo":false,"pressed":false}]}
+jump={"deadzone":0.5,"events":[{"type":"InputEventKey","unicode":0,"keycode":0,"physical_keycode":32,"key_label":0,"echo":false,"pressed":false}]}
+fire={"deadzone":0.5,"events":[{"type":"InputEventMouseButton","button_index":1,"canceled":false,"pressed":false,"doubleclick":false,"factor":1.0,"button_mask":0}]}
+toggle_mouse={"deadzone":0.5,"events":[{"type":"InputEventKey","unicode":0,"keycode":4194305,"physical_keycode":4194305,"key_label":0,"echo":false,"pressed":false}]}
